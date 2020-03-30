@@ -1,0 +1,108 @@
+.header{
+  display: flex;
+  height: 150px;
+  width: 100vw;
+  &__logo{
+    margin-left: 50px;
+    margin-right: 30px;
+    font-size: 100px;
+    a{
+      color: gray;
+    }
+  }
+  &__title{
+    font-size: 100px;
+    color: gray;
+  }
+  &__serch{
+    width: 30vw;
+    margin-top: 70px;
+    margin-left: 330px;
+    input{
+    margin-left:35px ;
+    width:400px;
+    height: 42px;
+    }
+    button{
+      background-color:gray;
+      border: none;
+      height: 46px;
+      width:46px;
+      color: white;
+      font-size: 18px;
+      position: relative;
+      right:5px
+    }
+  }
+  &__user{
+    margin: 15px 0 15px 50px;
+    width: 10vw;
+    &__login{
+      a{
+      display: block;
+      font-size: 20px;
+      position: relative;
+      width: 80px;
+      padding: 0.8em;
+      text-align: center;
+      text-decoration: none;
+      color: gray;
+      background: #fff;
+      }
+      a:hover{
+        background: gray;
+        color: #fff;
+        cursor: pointer;
+        text-decoration: none;
+      }
+    }
+    &__signup{
+      a{
+      display: block;
+      font-size: 20px;
+      position: relative;
+      width: 80px;
+      padding: 0.8em;
+      text-align: center;
+      text-decoration: none;
+      color: gray;
+      background: #fff;
+      }
+      a:hover{
+        background: gray;
+        color: #fff;
+        cursor: pointer;
+        text-decoration: none;
+      }
+    }
+  }
+}
+.list{
+  position: fixed;
+  height: 51px;
+  background-color:gray;
+  width: 100vw;
+  ul{
+    display: flex;
+    margin: 0 500px;
+    justify-content: space-between;
+    li{
+      height: 50px;
+      a{
+        font-size: 25px;
+        position: relative;
+        display: inline-block;
+        font-weight: bold;
+        padding: 0.25em 0.5em;
+        text-decoration: none;
+        color:white;
+        background:gray;
+        transition: .4s;
+      }
+      a:hover{
+        background:white;
+        color:gray;
+      }
+    }
+  }
+}

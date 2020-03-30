@@ -1,0 +1,27 @@
+.header
+  .header__logo
+    =link_to root_path do
+      =icon('fas','video')
+  .header__title
+    Movie.Com
+  .header__serch
+    %input.text-serch
+    %button 
+      =icon('fas','search')
+  %ul.header__user
+    %li.header__user__login
+      =link_to "Log in"
+    %li.header__user__signup
+      =link_to "Sign up"
+.list
+  %ul.list__box
+    %li.list__box__top
+      =link_to"Top" 
+    %li.list__box__movie
+      =link_to "Movie"
+    %li.list__box__ranking
+      =link_to "Ranking"
+    %li.list__box__bulletinboard
+      =link_to "BBS"
+    %li.list__box__mypage
+      =link_to "MyPage"
